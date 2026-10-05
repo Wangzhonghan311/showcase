@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#6d5ce7">
+  <meta name="description" content="ReportDesk 客户报告与审核工作台。将 CSV 数据处理、品牌报告、人工审核和版本交付连成可复查的完整流程。">
+  <title>ReportDesk · 从数据，到可信交付</title>
+  <link rel="stylesheet" href="showcase.css">
+  <script src="vendor/feather.min.js" defer></script><script src="showcase.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">跳到正文</a>
+  <header class="site-header wrap">
+    <a href="#" class="brand"><span class="brand-mark"><i data-feather="bar-chart-2"></i></span>ReportDesk</a>
+    <nav aria-label="案例导航"><a href="#workflow">产品体验</a><a href="#delivery">交付范围</a><a href="#case">项目案例</a></nav>
+    <a class="button small live-link" data-route="#queue" href="#workflow">查看界面<i data-feather="arrow-up-right"></i></a>
+  </header>
+  <main id="main">
+    <section class="hero wrap">
+      <div class="hero-copy">
+        <div class="eyebrow"><span class="status-dot"></span>CLIENT REPORTING WORKSPACE</div>
+        <h1>每一份客户月报，<br>都经得起回查。</h1>
+        <p class="lead">把数据整理、品牌报告和审核交付放在同一个工作台。为小型营销代理商，留住每次交付的依据。</p>
+        <div class="actions"><a class="button primary live-link" data-route="#editor/luma-2026-08" href="#workflow">查看报告界面<i data-feather="arrow-right"></i></a><a class="text-link" href="#demo-route">三分钟了解完整流程<i data-feather="play-circle"></i></a></div>
+        <p class="fine">自主项目案例 · 可运行本地版本 · 虚构客户与演示数据</p>
+        <p class="offline-note" id="offline-note" hidden>正在离线查看案例。启动工程中的「启动ReportDesk.cmd」后可体验应用，实际端口以启动输出为准。</p>
+      </div>
+      <aside class="hero-summary" aria-label="产品交付重点">
+        <div class="summary-top"><span class="mini-label">REPORT LIFECYCLE</span><span class="version">V1.0</span></div>
+        <h2>从一张数据表，<br>到一份确定的报告。</h2>
+        <div class="summary-row"><span class="summary-icon"><i data-feather="database"></i></span><div><strong>有来源的数据</strong><span>字段映射 · 异常检查 · 指标口径</span></div><i data-feather="check"></i></div>
+        <div class="summary-row"><span class="summary-icon"><i data-feather="sliders"></i></span><div><strong>可调整的报告</strong><span>品牌主题 · 指标图表 · 人工说明</span></div><i data-feather="check"></i></div>
+        <div class="summary-row"><span class="summary-icon"><i data-feather="shield"></i></span><div><strong>可回查的交付</strong><span>审核退回 · 批准快照 · PDF 导出</span></div><i data-feather="check"></i></div>
+      </aside>
+    </section>
+
+    <section class="product-section wrap" id="workflow" aria-labelledby="workflow-title">
+      <div class="section-heading"><div><span class="eyebrow">01 / PRODUCT EXPERIENCE</span><h2 id="workflow-title">同一条流程，四个关键时刻。</h2></div><p>真实运行截图。公开页展示界面回放；完整应用保留私有。</p></div>
+      <div class="gallery">
+        <div class="gallery-tabs" role="tablist" aria-label="关键产品界面">
+          <button id="tab-editor" role="tab" aria-selected="true" aria-controls="product-panel" data-view="editor"><span>01</span> 品牌报告</button>
+          <button id="tab-mapping" role="tab" aria-selected="false" aria-controls="product-panel" tabindex="-1" data-view="mapping"><span>02</span> 数据校验</button>
+          <button id="tab-approval" role="tab" aria-selected="false" aria-controls="product-panel" tabindex="-1" data-view="approval"><span>03</span> 审核批准</button>
+          <button id="tab-snapshot" role="tab" aria-selected="false" aria-controls="product-panel" tabindex="-1" data-view="snapshot"><span>04</span> 历史版本</button>
+        </div>
+        <div id="product-panel" role="tabpanel" aria-labelledby="tab-editor" tabindex="0">
+          <div class="gallery-caption"><div><strong id="view-title">数据和品牌，一起成为报告。</strong><p id="view-copy">左侧切换客户，中央预览报告，右侧调整品牌、指标和说明。保存后进入审核。</p></div><a id="full-image" href="showcase/editor.png" target="_blank" rel="noopener">查看原图<i data-feather="maximize-2"></i></a></div>
+          <div class="screen-window"><img id="product-image" src="showcase/editor.png" alt="ReportDesk 三栏报告编辑器，显示 LUMA 当前 D3 数据与重新审核提示" width="1265" height="712"></div>
+        </div>
+      </div>
+      <div class="proof-strip"><span><i data-feather="check-circle"></i>两客户数据独立</span><span><i data-feather="check-circle"></i>批准版本固定内容</span><span><i data-feather="check-circle"></i>真实 PDF 与来源追踪</span><span><i data-feather="check-circle"></i>11 项业务回归通过</span></div>
+    </section>
+
+    <section class="story-section wrap" id="case">
+      <div><span class="eyebrow">02 / THE PRODUCT DECISION</span><h2>数据变了，<br>上一次批准还算数吗？</h2><p class="section-intro">这是这个项目最重要的设计问题。当前草稿和已批准报告分别保存：新数据触发重新审核，历史交付仍使用当时的数据、说明和品牌。</p><a class="text-link live-link" data-route="#review/luma-2026-08" href="#workflow">查看审核与版本界面<i data-feather="arrow-up-right"></i></a></div>
+      <div class="version-comparison">
+        <div class="compare-head"><span>一次真实验收的结果</span><span class="version">LUMA · 2026.08</span></div>
+        <div class="compare-columns"><article><span class="pill">已批准 V1 / D2</span><dl><dt>广告花费</dt><dd>¥66,240</dd><dt>归因收入</dt><dd>¥345,966</dd><dt>ROAS</dt><dd>5.22<span>×</span></dd></dl><p><i data-feather="lock"></i>原值、原口径、原哈希</p></article><article><span class="pill amber">更新后草稿 / D3</span><dl><dt>广告花费</dt><dd>¥73,680</dd><dt>归因收入</dt><dd>¥357,126</dd><dt>ROAS</dt><dd>4.85<span>×</span></dd></dl><p><i data-feather="refresh-cw"></i>必须重新提交审核</p></article></div>
+        <div class="compare-note">数值来自虚构样例，用于验证计算和版本行为；不代表商业增长或客户收益。</div>
+      </div>
+    </section>
+
+    <section class="delivery-section" id="delivery"><div class="wrap">
+      <div class="section-heading"><div><span class="eyebrow">03 / FROM BRIEF TO HANDOFF</span><h2>一套可以讲清、验收、交接的交付。</h2></div><p>适用于客户月报、内部经营报告和固定口径报表的定制需求。</p></div>
+      <div class="delivery-grid">
+        <article><i data-feather="file-plus"></i><span class="mini-label">INPUT</span><h3>开始前，需要什么</h3><p>一份脱敏数据样表、指标定义、品牌素材，以及负责人怎样核对和批准报告。</p><ul><li>字段、币种、周期与去重规则</li><li>报告内容、样式与交付格式</li><li>审核角色、退回条件与验收样例</li></ul></article>
+        <article><i data-feather="package"></i><span class="mini-label">DELIVERY</span><h3>客户会拿到什么</h3><p>可运行的工作台、完整源码、样例数据和启动说明，让交付能继续使用和维护。</p><ul><li>数据处理与品牌报告流程</li><li>批准快照、只读报告和 PDF</li><li>异常样例、测试与交接文档</li></ul></article>
+        <article><i data-feather="check-square"></i><span class="mini-label">ACCEPTANCE</span><h3>怎样判断做完了</h3><p>先约定输入和预期结果，再逐项验证正常流程、异常反馈与版本一致性。</p><ul><li>数据错误能定位，指标算得对</li><li>变更后重新审核，旧版本不变</li><li>导出内容一致，重启数据保留</li></ul></article>
+      </div>
+      <div class="scope-note"><i data-feather="info"></i><p><strong>本案例已完成本地 CSV 工作流。</strong>广告 API、真实邮件、多人鉴权和线上部署属于后续项目中需单独约定并联调的范围。报告说明由人工编辑。</p></div>
+    </div></section>
+
+    <section class="demo-section wrap" id="demo-route">
+      <div><span class="eyebrow">04 / THREE-MINUTE DEMO</span><h2>用三个动作，判断交付能力。</h2><p class="section-intro">从客户会遇到的问题出发，展示工作台实际怎样处理。完整修改流程保留在私有本地应用中。</p><div class="actions"><a class="button primary" href="showcase/report-sample.pdf" download="ReportDesk-LUMA-V1.pdf">下载 PDF 样例<i data-feather="file-text"></i></a><a class="button live-link" data-route="demo" href="#workflow">完整截图回放<i data-feather="play-circle"></i></a></div></div>
+      <ol class="demo-steps"><li><span class="step-time">00:00 — 00:45</span><h3>换一个客户，看品牌和数据。</h3><p>从 LUMA 切到北辰，核对各自的报告；点开指标口径，查看输入版本和公式。</p></li><li><span class="step-time">00:45 — 01:30</span><h3>给它一份有问题的数据。</h3><p>上传缺字段或重复行 CSV，查看错误位置；恢复有效数据，检查映射和预览。</p></li><li><span class="step-time">01:30 — 03:00</span><h3>看一次批准，怎样保留下来。</h3><p>对照 D3 草稿和已批准 V1，再看 PDF。新数据需要重审，历史内容与哈希不变。</p></li></ol>
+    </section>
+
+    <section class="case-footer wrap">
+      <div><span class="eyebrow">PROJECT CASE / 2026.09</span><h2>ReportDesk 客户报告与审核工作台</h2><p>需求拆解、界面与流程实现、数据计算、异常处理及交付验收。<br>独立实现，AI 辅助开发；参考成熟报告产品的信息结构与交付习惯。</p></div>
+      <div class="case-downloads"><button class="button" id="copy-case"><i data-feather="copy"></i>复制项目简介</button><a class="text-link" href="showcase/项目经历.md" download>下载简历与接单文案<i data-feather="download"></i></a><p id="copy-status" role="status" aria-live="polite"></p></div>
+    </section>
+  </main>
+  <footer class="site-footer wrap"><span>ReportDesk · 从数据，到可信交付。</span><span>参考 Whatagraph / AgencyAnalytics；界面与业务代码独立实现。</span></footer>
+  <dialog id="copy-dialog"><h2>项目简介</h2><p>请选择下方文字复制。</p><textarea id="copy-text" rows="8" readonly aria-label="可复制的项目简介"></textarea><form method="dialog"><button class="button">完成</button></form></dialog>
+</body>
+</html>

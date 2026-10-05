@@ -1,0 +1,1457 @@
+[
+  {
+    "id": "P01",
+    "name": "磨指甲",
+    "aliases": [
+      "剪甲＋磨甲微信小游戏"
+    ],
+    "date": "2026-09-01",
+    "kind": "旧项目续做",
+    "work": "修复微信运行方式和工具模块加载；改成单一动画调度，补生命周期和碎片上限，处理循环卡顿。",
+    "artifacts": "微信原生代码、README、21项历史测试、2000轮循环与开发者工具观察记录。",
+    "status_sep30": "本机开发者工具可运行的原型；没有真机完整验收或发布证据。",
+    "planned_only": "真机体验、正式上线。",
+    "dedup": "8/31任务延续到9/1；剪与磨是同一玩法的两个阶段。",
+    "stopped": "没有九月明确停项证据。",
+    "publication": "案例公开 · 完整实现私有",
+    "repository": "showcase",
+    "publication_note": "公开案例与精选演示；原始工程、完整剧本、策略与项目专用规则保留私有",
+    "evidence": [
+      {
+        "id": "E001",
+        "source_label": "README.md",
+        "sha256": "ba3e10803a6656b61b043398f32f0e4b6f9be05f4b2efa076495314a2d153d15",
+        "note": "现存原文件"
+      }
+    ]
+  },
+  {
+    "id": "P02",
+    "name": "十句话保住5000万",
+    "aliases": [
+      "W计划；ten-lines-50m v0.2"
+    ],
+    "date": "2026-09-01",
+    "kind": "旧项目续做",
+    "work": "完成并导入10回合对话博弈原型；本地意图识别、混合分类接口和确定性评分。",
+    "artifacts": "小程序前端、342条回复内容、云函数脚手架、离线回退、导入/运行记录。",
+    "status_sep30": "代码已导入、本地可跑；历史最终回执明确未上传体验版。",
+    "planned_only": "云端实际服务与体验版上传。",
+    "dedup": "W计划此处由README明确指向十句话；不和W计划战棋合并。",
+    "stopped": "没有明确停项；上传分支未完成。",
+    "publication": "案例公开 · 完整实现私有",
+    "repository": "showcase",
+    "publication_note": "公开案例与精选演示；原始工程、完整剧本、策略与项目专用规则保留私有",
+    "evidence": [
+      {
+        "id": "E003",
+        "source_label": "README.md",
+        "sha256": "6d49effa88bdb983154084d5a9bc09899e61964b5c948e730b7bb5b011514ec1",
+        "note": "现存原文件"
+      }
+    ]
+  },
+  {
+    "id": "P03",
+    "name": "欢乐套个圈",
+    "aliases": [
+      "ring toss；小鸭移动靶；90秒街机收获；珍藏玩具重制版；project-3"
+    ],
+    "date": "2026-09-01",
+    "kind": "旧项目续做",
+    "work": "Three.js/Rapier真实圆环物理；移动靶、街机计分和奖励；9/14—16美术与离线包；9/25首局引导、对照臂及上线审计。",
+    "artifacts": "Git首提交a82865b(9/1)、HTML/源码、街机包、美术样板、交接ZIP、运行/帧率/奖励链路报告。",
+    "status_sep30": "桌面离线原型与奖品演出已存在；9/25审计仍列DOM迁移、WASM与真机缺口。不能称微信小游戏已上线。",
+    "planned_only": "生产默认S3、微信适配/拆包、真机与提审；任务书中的上线步骤不算已做。",
+    "dedup": "project-3交接明确来自本游戏；同源HTML、街机与美术版只计一次。",
+    "stopped": "旧静态靶基线被移动靶/新版替代；上线分支未过闸门，整体未见明确停项。",
+    "publication": "案例公开 · 完整实现私有",
+    "repository": "showcase",
+    "publication_note": "公开案例与精选演示；原始工程、完整剧本、策略与项目专用规则保留私有",
+    "evidence": [
+      {
+        "id": "E005",
+        "source_label": "README.md",
+        "sha256": "c0cbaff95dca6d5fdebab4ebc9204dafaf7fbabbfe073dc372bcbc7af7ada318",
+        "note": "现存原文件"
+      },
+      {
+        "id": "E006",
+        "source_label": "LAUNCH_AUDIT.md",
+        "sha256": "5c0c11a33687346b3f67bf985924333c5a9c1552a903a143d7300cee3a624af4",
+        "note": "现存原文件"
+      },
+      {
+        "id": "E007",
+        "source_label": "欢乐套个圈_90秒街机收获_v1.0",
+        "sha256": null,
+        "note": "现存原文件"
+      }
+    ]
+  },
+  {
+    "id": "P04",
+    "name": "逆命计划",
+    "aliases": [
+      "X计划；X；X-new；X-new-D1；E1六动作/斩击16帧；第一至第三版"
+    ],
+    "date": "2026-09-01",
+    "kind": "旧项目续做",
+    "work": "整理789份资源、Godot v15导出与验证；重建第一章HTML；白衣修士、ABCD美术、B2总装、E1动作、九帧御剑与锁图适配；9/9线上执行看板v1.3代理→v1.4CSP→v1.5fetch修正；9/13原初母版重建。",
+    "artifacts": "Godot源码/Windows程序、离线HTML、角色PNG/动画预览、规则XLSX、任务包与验收、B2源码仓库10次九月提交、线上看板HTML/JS/CSS/Cloudflare直传ZIP。",
+    "status_sep30": "多条可玩的原型和美术实验线，第三版/完整流程等有交付；视觉方向反复修订，不是完整商业发行版。看板代码已打包，长期在线和持续拉取未证。",
+    "planned_only": "部分融合/破势/内容池表格、全面美术一致性与最终整合；设计表存在不代表所有规则实装。",
+    "dedup": "项目入口、9/8主线声明及交接链证明这些目录/名称是同一游戏分支；角色/UI/素材是子模块。看板明确为X计划交付工具，列子模块而不另加项目。",
+    "stopped": "v14/v15旧视觉转为历史参考；9/8旧美术不再默认继承；误混入“她回来了”小说的设定已回退。",
+    "publication": "案例公开 · 完整实现私有",
+    "repository": "showcase",
+    "publication_note": "公开案例与精选演示；原始工程、完整剧本、策略与项目专用规则保留私有",
+    "evidence": [
+      {
+        "id": "E009",
+        "source_label": "项目入口.md",
+        "sha256": "829550a48b7840bdeb0831b39f43430430fee47e83b6c56ddc1742a86c324be5",
+        "note": "现存原文件"
+      },
+      {
+        "id": "E010",
+        "source_label": "X-new",
+        "sha256": null,
+        "note": "现存原文件"
+      },
+      {
+        "id": "E011",
+        "source_label": "X计划_锁图适配_20260914",
+        "sha256": null,
+        "note": "现存原文件"
+      },
+      {
+        "id": "E014",
+        "source_label": "X计划_线上看板_v1.5_fetch绑定修正版_直传包.zip",
+        "sha256": "3cb3089c85d18e0dc15d4269506cca2c3d3ea81c55a73c28f60529f59cdc436a",
+        "note": "9/9看板最终可见直传代码包"
+      }
+    ]
+  },
+  {
+    "id": "P05",
+    "name": "执行与能力学习机制",
+    "aliases": [
+      "execution-learning v1.0→2.0；轻量执行约定；技能与工作流中的执行学习研发"
+    ],
+    "date": "2026-09-05",
+    "kind": "新立项",
+    "work": "新增全局短协议、按需Skill和独立SQLite账本；新机路径修复；9/14迁移schema2、规则优先/撤回/隔离；9/16去微操化审计。",
+    "artifacts": "ledger.py/learn.ps1、Skill、AGENTS规则、唯一账本、备份/部署差异、独立测试与CLI跨上下文验证报告。",
+    "status_sep30": "v2.0已部署并在限定范围验证；没有后台自动研究/反馈监听。完整无损降回v1与所有桌面宿主覆盖未证。",
+    "planned_only": "后台监听、强制Hook、整体业务收益比较。",
+    "dedup": "技能与工作流是收纳目录；v1/v2是同一机制升级。Game Dev OS是复用的旧入口，不额外算九月新建。",
+    "stopped": "旧迁移回滚清单保护性禁用；旧“三条规则上限”被新版全部规则＋最多三条经验替代。",
+    "publication": "案例公开 · 完整实现私有",
+    "repository": "showcase",
+    "publication_note": "公开案例与精选演示；原始工程、完整剧本、策略与项目专用规则保留私有",
+    "evidence": [
+      {
+        "id": "E015",
+        "source_label": "交付说明.md",
+        "sha256": "0dfe4de0a71cf50de9eca81e2346d067ea19367a184d85d92847606a641cf5eb",
+        "note": "现存原文件"
+      },
+      {
+        "id": "E016",
+        "source_label": "report.md",
+        "sha256": "bcdc346b94aacf040f7d8a9a2e52dc5d282955efe23ca3200805a2eb3a371f95",
+        "note": "现存原文件"
+      },
+      {
+        "id": "E017",
+        "source_label": "report.md",
+        "sha256": "189534ac151d310395a419c1a700b9d02359b57ab6f1c2037b0ef440473be129",
+        "note": "现存原文件"
+      }
+    ]
+  },
+  {
+    "id": "P06",
+    "name": "Windows全应用与浏览器控制配置实验",
+    "aliases": [
+      "Computer Use/Browser Use最大范围验收"
+    ],
+    "date": "2026-09-05",
+    "kind": "一次性实验",
+    "work": "审计权限并配置Any App、网站/应用持久允许、Full CDP；安装Chrome/连接官方扩展；计算器、记事本、文件和Shell混合验收。",
+    "artifacts": "配置变化、浏览器安装/扩展连接记录、audit下验收JSON。",
+    "status_sep30": "本地应用与部分浏览器导航通过；浏览器读取/调试器连接仍失败或超时。旧电脑结果不外推新机。",
+    "planned_only": "完整浏览器会话与跨三类能力整链验收。",
+    "dedup": "作为一项系统集成实验计数；每个开关/浏览器不分项目。",
+    "stopped": "浏览器分支被工具中止；没有证据后来在此任务内全面补验。",
+    "publication": "案例公开 · 完整实现私有",
+    "repository": "showcase",
+    "publication_note": "公开案例与精选演示；原始工程、完整剧本、策略与项目专用规则保留私有",
+    "evidence": [
+      {
+        "id": "E020",
+        "source_label": "windows-chatgpt-codex-gpt-6-astra",
+        "sha256": null,
+        "note": "现存原文件"
+      }
+    ]
+  },
+  {
+    "id": "P07",
+    "name": "换机恢复与D盘项目迁移",
+    "aliases": [
+      "迁移；47MB快速恢复包；Recovery/Recovered/RecoveredHome"
+    ],
+    "date": "2026-09-06",
+    "kind": "一次性实验",
+    "work": "下载恢复材料、恢复旧工程、整理九个主题入口，迁移D盘并保留C盘联接；处理Remote/项目元数据与恢复校验。",
+    "artifacts": "恢复包、换机交接、还原树/脚本、D盘项目入口与联接、历史校验记录。",
+    "status_sep30": "项目资料与主要目录可恢复/定位；Codex活动状态与Remote跨端结果仍有限制。",
+    "planned_only": "未证明所有旧会话的运行状态和跨端接续完全迁移。",
+    "dedup": "Recovery、Projects-bf、归档与原目录副本不另算被备份的项目。",
+    "stopped": "旧用户路径失效；备份被保留为历史，不能当成九月新项目。",
+    "publication": "案例公开 · 完整实现私有",
+    "repository": "showcase",
+    "publication_note": "公开案例与精选演示；原始工程、完整剧本、策略与项目专用规则保留私有",
+    "evidence": [
+      {
+        "id": "E021",
+        "source_label": "01-Codex换机交接.md",
+        "sha256": "994933433f3dbd2ab76e3708872bbbc8e9955d54ed8e2522eb05bbefef22414b",
+        "note": "现存原文件"
+      },
+      {
+        "id": "E023",
+        "source_label": "20260906",
+        "sha256": null,
+        "note": "现存原文件"
+      }
+    ]
+  },
+  {
+    "id": "P08",
+    "name": "Astra上下文管理连续性实验",
+    "aliases": [
+      "context_management配置与新任务验证"
+    ],
+    "date": "2026-09-07",
+    "kind": "一次性实验",
+    "work": "备份/修改配置并新建验证任务；一次实际上下文切换后核对四项事实、旧要求和剩余待办。",
+    "artifacts": "配置备份、两条任务历史和4/4续接回执。",
+    "status_sep30": "单次上下文切换通过；重启和长时间持久性没有验收。",
+    "planned_only": "客户端重启/多日持续效果。",
+    "dedup": "启用和新任务验收是一个实验，不按两条聊天计数。",
+    "stopped": "未见明确停项；验收停在单次切换范围。",
+    "publication": "案例公开 · 完整实现私有",
+    "repository": "showcase",
+    "publication_note": "公开案例与精选演示；原始工程、完整剧本、策略与项目专用规则保留私有",
+    "evidence": []
+  },
+  {
+    "id": "P09",
+    "name": "日报理论研究与报纸语料工程",
+    "aliases": [
+      "天津日报理论版；党报选题工作流；四报语料；曾误放X-new目录"
+    ],
+    "date": "2026-09-11",
+    "kind": "新立项",
+    "work": "首轮全文研究、治理校准、专用工作流部署；目录枚举/正文归档/索引/分类/复核/政策卡；经济日报恢复、检索与Drive归档；改为定向检索精读。",
+    "artifacts": "Python管线、corpus.sqlite/runtime.sqlite、原HTML/PDF、治理与Skill、source/span回溯、归档及快照。",
+    "status_sep30": "9/13快照4092来源/58546段、476政策条目；经济日报452正文但版面/分母未核。可定向研究，非四报全部通读。九月后续选题继续。",
+    "planned_only": "经济日报全目录、1630个Q待核、整书深读、专用Deep Research不可用；不能把检索覆盖当原创性证明。",
+    "dedup": "四报与治理/检索是同一语料工程；汽车文章/参赛选题等另有独立内容产出，分别列但不重复计算库。",
+    "stopped": "9/12旧研究完成度降为HISTORICAL_UNVERIFIED；598旧重任务取消；9/16旧三选题撤下。归档不等于停项目。",
+    "publication": "案例公开 · 完整实现私有",
+    "repository": "showcase",
+    "publication_note": "公开案例与精选演示；原始工程、完整剧本、策略与项目专用规则保留私有",
+    "evidence": [
+      {
+        "id": "E026",
+        "source_label": "progress.md",
+        "sha256": "398a19713f1675f68b5c3dee5e90ac3c9ae597131f1a52ba85e903e76f1a5540",
+        "note": "现存原文件"
+      },
+      {
+        "id": "E027",
+        "source_label": "语料库总状态快照.md",
+        "sha256": "c2727b1ff3d04472527ce838f786f7ef618857afea06bc4081d22e462db86bb6",
+        "note": "现存原文件"
+      },
+      {
+        "id": "E028",
+        "source_label": "日报_项目归档_20260913T153456Z",
+        "sha256": null,
+        "note": "现存原文件"
+      }
+    ]
+  },
+  {
+    "id": "P10",
+    "name": "鹈鹕骑自行车SVG/HTML",
+    "aliases": [
+      "pelican-ride；pelican-bicycle；Pelican-on-a-Bicycle"
+    ],
+    "date": "2026-09-13",
+    "kind": "一次性实验",
+    "work": "静态SVG和自包含HTML动画；9/15、25、26、30多版再做，含自行车/鸟动作和控制。",
+    "artifacts": "多份SVG/HTML单文件，独立日目录产物及DSH版本。",
+    "status_sep30": "已产生可打开源文件；部分任务明确不要测试，视觉验收范围因版本不同，不能给所有版本统一通过标签。",
+    "planned_only": "未测版本的真实画面与完整兼容性。",
+    "dedup": "同一创作题目重做/变体只计一次；9/25三个并行版本不算三个新项目。",
+    "stopped": "旧版保留，后续版是替代候选；没有明确选定唯一终版。",
+    "publication": "案例公开 · 完整实现私有",
+    "repository": "showcase",
+    "publication_note": "公开案例与精选演示；原始工程、完整剧本、策略与项目专用规则保留私有",
+    "evidence": [
+      {
+        "id": "E030",
+        "source_label": "pelican-ride.html",
+        "sha256": "a7dd2278f2fb92e4aa67dcf96a5575976360b606d950970ec0cbe3c5cbae1143",
+        "note": "现存原文件"
+      },
+      {
+        "id": "E031",
+        "source_label": "pelican-ride.html",
+        "sha256": "5bedc9296de31adff7c6dcf0508e1a650df7c02300f98bd35bab1a4aa79f13ff",
+        "note": "现存原文件"
+      },
+      {
+        "id": "E032",
+        "source_label": "Pelican-on-a-Bicycle.html",
+        "sha256": "df18f12b6e8bfd991e275849c4478b0bb8ad90f613d6c1df97718f4b77b8cc40",
+        "note": "现存原文件"
+      }
+    ]
+  },
+  {
+    "id": "P11",
+    "name": "合荐招聘众包平台",
+    "aliases": [
+      "猎头；猎头众包；recruit-platform；Hejian"
+    ],
+    "date": "2026-09-12",
+    "kind": "新立项",
+    "work": "实现离线订单大厅、顾问/候选人/交付路径与交互；多轮UI/动效；9/16隐藏测试入口后部署腾讯云演示首页。",
+    "artifacts": "React/TypeScript/Vite源码、构建/交互报告、单HTML离线版、发布ZIP、线上核验JSON/截图、public-site提交。",
+    "status_sep30": "腾讯云hejian-demo-004演示部署有完成回执及线上检查；真实账号、业务数据库和结算后台尚未接入。",
+    "planned_only": "真正的招募业务、身份鉴权、支付结算与生产后端。",
+    "dedup": "空“猎头”仓库是登记入口；app和public-site、众多合荐输出是一套产品。",
+    "stopped": "演示身份切换/运营测试入口隐藏，旧视觉被新首页替代；未见停项。",
+    "publication": "案例公开 · 完整实现私有",
+    "repository": "showcase",
+    "publication_note": "公开案例与精选演示；原始工程、完整剧本、策略与项目专用规则保留私有",
+    "evidence": [
+      {
+        "id": "E034",
+        "source_label": "interaction-audit.md",
+        "sha256": "e1bfd8c39332f373375cc09f45d56fcaa2be5ca5b14402898d2d1e2077d9d0fa",
+        "note": "现存原文件"
+      },
+      {
+        "id": "E035",
+        "source_label": "发布记录.md",
+        "sha256": "e8ed400ff3e366351a20224caa2a07f5e03d6a44b0a1920fa0b4d6a69d12edd3",
+        "note": "现存原文件"
+      }
+    ]
+  },
+  {
+    "id": "P12",
+    "name": "AKOOL参赛准备《寄一场雨》",
+    "aliases": [
+      "Creator Clash；Seedance2.5；视频提示词"
+    ],
+    "date": "2026-09-14",
+    "kind": "内容作品",
+    "work": "查赛事规则，完成24—30秒三镜头故事与英文生成提示词。",
+    "artifacts": "参赛准备Markdown与提示词。",
+    "status_sep30": "完成创意/制作准备；未发现已生成成片、公开发布或提交报名的证据。",
+    "planned_only": "视频生成、Logo合成、发布、报名全部未证。",
+    "dedup": "视频提示词空仓库不是额外软件项目；《讨骂》不是自动同义名，另列证据候选。",
+    "stopped": "没有明确停止声明，制作与投稿分支未落地。",
+    "publication": "案例公开 · 完整实现私有",
+    "repository": "showcase",
+    "publication_note": "公开案例与精选演示；原始工程、完整剧本、策略与项目专用规则保留私有",
+    "evidence": [
+      {
+        "id": "E037",
+        "source_label": "AKOOL参赛准备-20260914.md",
+        "sha256": "5a3507872675ce8add861127a6ffd04facdb91a0fd9aa67e49acf043484b9764",
+        "note": "现存原文件"
+      }
+    ]
+  },
+  {
+    "id": "P13",
+    "name": "冰冠堡垒离线独立游戏",
+    "aliases": [
+      "炉石；冰封王冒险/战役复刻原型"
+    ],
+    "date": "2026-09-14",
+    "kind": "新立项",
+    "work": "实现七Boss、三职业预组牌、战斗规则/固定AI、地图与战绩、离线存档；下载136本地素材。",
+    "artifacts": "HTML/CSS/JS、27项规则/资源测试、七Boss通关simulation、实际网页流程截图/验收。",
+    "status_sep30": "桌面本地HTTP可玩，有正常规则下七Boss通关路径；不是原版全机制/九职业/移动真机或平衡完测。",
+    "planned_only": "全部原版动画音效、所有牌序胜率、移动端专项与最终发行。",
+    "dedup": "炉石是项目目录名；七Boss是一个游戏的关卡。",
+    "stopped": "未见九月停项；范围停在离线原型。",
+    "publication": "案例公开 · 完整实现私有",
+    "repository": "showcase",
+    "publication_note": "公开案例与精选演示；原始工程、完整剧本、策略与项目专用规则保留私有",
+    "evidence": [
+      {
+        "id": "E039",
+        "source_label": "README.md",
+        "sha256": "b998bdcba7ba55dc0f2042797b7da48f5d30bcaa6332da2c26bd23cf51ba1d22",
+        "note": "现存原文件"
+      },
+      {
+        "id": "E040",
+        "source_label": "ACCEPTANCE.md",
+        "sha256": "66361a7601ea219fc9820d983c0ad0168e3358c2f7628f29363de1c17327dfcc",
+        "note": "现存原文件"
+      }
+    ]
+  },
+  {
+    "id": "P14",
+    "name": "鳄鱼骑自行车SVG动画",
+    "aliases": [
+      "crocodile-ride"
+    ],
+    "date": "2026-09-15",
+    "kind": "一次性实验",
+    "work": "绘制鳄鱼与自行车，生成自包含2D动画HTML。",
+    "artifacts": "15660字节HTML源文件。",
+    "status_sep30": "单文件交付；用户明确不需要测试，未以本轮重验补造九月验收。",
+    "planned_only": "没有正式兼容性/视觉认可记录。",
+    "dedup": "主体和原始创作要求不同于鹈鹕，独立作品；不按帧或动作计数。",
+    "stopped": "无停项证据。",
+    "publication": "案例公开 · 完整实现私有",
+    "repository": "showcase",
+    "publication_note": "公开案例与精选演示；原始工程、完整剧本、策略与项目专用规则保留私有",
+    "evidence": [
+      {
+        "id": "E041",
+        "source_label": "crocodile-ride.html",
+        "sha256": "3b9111e67160e37dbfc989b1f0b6e71a5f05864043a2edf59a71ab22fa7c341d",
+        "note": "现存原文件"
+      }
+    ]
+  },
+  {
+    "id": "P15",
+    "name": "双人Slack＋Drive AI协作实验",
+    "aliases": [
+      "ChatGPT/Codex双人协作环境"
+    ],
+    "date": "2026-09-15",
+    "kind": "一次性实验",
+    "work": "复用私有频道和共享文件夹；实际读写/邀请、上传/回读/权限核验，发测试任务和项目说明。",
+    "artifacts": "COLLABORATION.md、本地测试文件、云文件/消息回执。",
+    "status_sep30": "我方Codex能力实测通过；未收到对方通过自身AI回传，双人往返及双方四入口未通过。",
+    "planned_only": "对方ChatGPT/Codex测试；常驻监听/自动循环未建设。",
+    "dedup": "频道、Drive与各客户端测试是一个协作实验。",
+    "stopped": "停在待对方验收；没有全面打通证据。",
+    "publication": "案例公开 · 完整实现私有",
+    "repository": "showcase",
+    "publication_note": "公开案例与精选演示；原始工程、完整剧本、策略与项目专用规则保留私有",
+    "evidence": [
+      {
+        "id": "E043",
+        "source_label": "COLLABORATION.md",
+        "sha256": "469661a1c08409a68c7557016cc20e59bc509ddb7b5937cd7fa94ff7fee23668",
+        "note": "现存原文件"
+      }
+    ]
+  },
+  {
+    "id": "P16",
+    "name": "Folio CRM",
+    "aliases": [
+      "Twenty CRM portfolio；twenty-crm；客户/商机工作台"
+    ],
+    "date": "2026-09-16",
+    "kind": "新立项",
+    "work": "调整为独立本地实现；做持久CRUD、联系人/公司/商机关联、看板/视图、CSV、流程与仪表盘；9/19补前端动效展示。",
+    "artifacts": "React＋Node SQLite源码、单个自有提交3b57eea、release源码/成品包、验收与展示素材。",
+    "status_sep30": "本地持久业务工作台与演示交付；不是直接运行官方Twenty服务，也未验证真实企业上线。",
+    "planned_only": "外部邮件/日历OAuth、AI和生产多用户系统。",
+    "dedup": "设计/twenty-crm与twenty-crm-portfolio为联接/同一来源；动效版不是新CRM。",
+    "stopped": "最初Docker/WSL上游部署路线被本地独立实现取代。",
+    "publication": "案例公开 · 完整实现私有",
+    "repository": "showcase",
+    "publication_note": "公开案例与精选演示；原始工程、完整剧本、策略与项目专用规则保留私有",
+    "evidence": [
+      {
+        "id": "E045",
+        "source_label": "README.md",
+        "sha256": "f4bc185abae01e4e19dea853e1797a51555cbae306c0d32b90d456370727f7f0",
+        "note": "现存原文件"
+      },
+      {
+        "id": "E046",
+        "source_label": "Folio_前端动效展示_20260919",
+        "sha256": null,
+        "note": "现存原文件"
+      }
+    ]
+  },
+  {
+    "id": "P17",
+    "name": "SchemaStudio构图工作台",
+    "aliases": [
+      "drawDB换皮；Schema Studio"
+    ],
+    "date": "2026-09-16",
+    "kind": "新立项",
+    "work": "基于drawDB固定上游改品牌/本地资产与示例；保留表结构编辑、SQL/DBML导入导出、撤销/保存流程并验证。",
+    "artifacts": "定制源码、a023016自有提交、示例/素材、构建/离线交付、浏览器检查。",
+    "status_sep30": "可运行的本地数据库图形工具；用户是否易用与最终满意未获证明。",
+    "planned_only": "云协作、AI、外部分享与生产服务。",
+    "dedup": "上游2023初始提交不是用户立项；定制工作自9/16算。不是Folio子版本。",
+    "stopped": "旧drawDB品牌/资源布局被定制替代；没有停项证据。",
+    "publication": "案例公开 · 完整实现私有",
+    "repository": "showcase",
+    "publication_note": "公开案例与精选演示；原始工程、完整剧本、策略与项目专用规则保留私有",
+    "evidence": [
+      {
+        "id": "E047",
+        "source_label": "README.md",
+        "sha256": "3055081cc542ba40c89a32203e6c44f70ba6e423d11a064c100e28a4643cc60d",
+        "note": "现存原文件"
+      },
+      {
+        "id": "E048",
+        "source_label": "schema-studio",
+        "sha256": null,
+        "note": "现存原文件"
+      }
+    ]
+  },
+  {
+    "id": "P18",
+    "name": "John Han个人作品集与接单资料",
+    "aliases": [
+      "JohnWang；JohnHan；王钟瀚项目合作资料；零工作品集"
+    ],
+    "date": "2026-09-16",
+    "kind": "新立项",
+    "work": "整理履历与真实案例；制作中英单页网站、PDF/DOCX/媒体包；修复录像；9/20Cloudflare发布；9/26医学AI职业定位。",
+    "artifacts": "网站HTML、五项展示、实际交互MP4、CN/EN简历/作品PDF、客户资料包、部署核验、职业定位材料。",
+    "status_sep30": "个人站有公开部署/HTTP与内容核验；不能推断已获客户、收入、正式就业或医学AI验证。",
+    "planned_only": "客户成交/商业运营；外联运行记录另属P44，不以邮件草案代替真实发送。",
+    "dedup": "姓名拼写/中英/轻量/动态版是同一作品集。Folio等独立产品有各自代码和验收，单列；作品集汇总不替代它们。客户外联P44有独立脚本/台账/运行目标，不合并。",
+    "stopped": "JohnWang命名改JohnHan；旧卡片/模糊录像换新版；ResearchDesk/ReportDesk从最终展示撤下不等于项目废弃。",
+    "publication": "案例公开 · 完整实现私有",
+    "repository": "showcase",
+    "publication_note": "公开案例与精选演示；原始工程、完整剧本、策略与项目专用规则保留私有",
+    "evidence": [
+      {
+        "id": "E049",
+        "source_label": "README.md",
+        "sha256": "2273e83f938eb581806f882e82b83e921f3b4d7d4ed121a04d7b1fe464a99d27",
+        "note": "现存原文件"
+      },
+      {
+        "id": "E050",
+        "source_label": "LinkedIn_医学AI_20260926",
+        "sha256": null,
+        "note": "现存原文件"
+      }
+    ]
+  },
+  {
+    "id": "P19",
+    "name": "ResearchDesk研据",
+    "aliases": [
+      "researchdesk；语料研究工作台"
+    ],
+    "date": "2026-09-17",
+    "kind": "新立项",
+    "work": "Python标准库＋SQLite独立工作台，检索原文、证据卡、复核和快照导出；只读适配日报库。",
+    "artifacts": "源码、demo/case发布ZIP、保护主库哈希、HTTP/重启/导出验证。",
+    "status_sep30": "v1.1本地演示/案例包；检索与证据整理可运行，用户质量未评价。",
+    "planned_only": "LLM/RAG、云端账号协作与正式业务集成。",
+    "dedup": "复用日报数据但有独立产品/运行入口/发布包，计独立新产品；不把原库复制另算。",
+    "stopped": "最终个人作品集未选此案例；无实际停项证据。",
+    "publication": "案例公开 · 完整实现私有",
+    "repository": "showcase",
+    "publication_note": "公开案例与精选演示；原始工程、完整剧本、策略与项目专用规则保留私有",
+    "evidence": [
+      {
+        "id": "E051",
+        "source_label": "README.md",
+        "sha256": "adf587b7884822d7a1d8a5010acc286ba55858e984422a1c21345940c6c7f23a",
+        "note": "现存原文件"
+      },
+      {
+        "id": "E052",
+        "source_label": "release",
+        "sha256": null,
+        "note": "现存原文件"
+      }
+    ]
+  },
+  {
+    "id": "P20",
+    "name": "ReportDesk",
+    "aliases": [
+      "CSV到审核报告/PDF工作台"
+    ],
+    "date": "2026-09-17",
+    "kind": "新立项",
+    "work": "CSV解析、指标计算、报告草稿、审核不可变快照、只读PDF导出、后台工作进程。",
+    "artifacts": "Node＋SQLite源码、ReportDesk1.0.0发布ZIP、两页PDF样例、工作流/重启/审核验证。",
+    "status_sep30": "本地闭环与打包可复现；演示数据虚构，不是接通真实广告/业务数据的SaaS。",
+    "planned_only": "外部业务接口、多租户、移动真机与企业使用。",
+    "dedup": "独立业务目的、代码和发布包，不因都叫Desk就合并ResearchDesk。",
+    "stopped": "最终个人作品集撤下展示；未见代码项目被废弃。",
+    "publication": "案例公开 · 完整实现私有",
+    "repository": "showcase",
+    "publication_note": "公开案例与精选演示；原始工程、完整剧本、策略与项目专用规则保留私有",
+    "evidence": [
+      {
+        "id": "E053",
+        "source_label": "README.md",
+        "sha256": "22b418814f46584431b3f60811d46cb499ae83146f0f8b4ce8101c6589c16d17",
+        "note": "现存原文件"
+      },
+      {
+        "id": "E054",
+        "source_label": "验收记录.md",
+        "sha256": "03afdbe50e2738d010c3a5b03061ade9640950b7841e0bbb9206a4172f31ad65",
+        "note": "现存原文件"
+      }
+    ]
+  },
+  {
+    "id": "P21",
+    "name": "VELLUM薄境香氛官网",
+    "aliases": [
+      "vellum；香氛品牌概念页"
+    ],
+    "date": "2026-09-17",
+    "kind": "新立项",
+    "work": "独立品牌前端、商品/材质原创图、选香、容量/购物袋/数量、语言/动效与刷新恢复。",
+    "artifacts": "生产预览ZIP、源码ZIP、六张母图资产包、约18秒交互MP4/GIF、哈希清单。",
+    "status_sep30": "本地交互和桌面/手机视口测试有记录；没有真实订单或公网商品销售。",
+    "planned_only": "真实电商后端/支付、客户商业运营。",
+    "dedup": "dc59隔离工作树与输出包是同一网站；作品集展示它不新算。",
+    "stopped": "旧入口故障修复，无停项证据。",
+    "publication": "案例公开 · 完整实现私有",
+    "repository": "showcase",
+    "publication_note": "公开案例与精选演示；原始工程、完整剧本、策略与项目专用规则保留私有",
+    "evidence": [
+      {
+        "id": "E055",
+        "source_label": "START_HERE.md",
+        "sha256": "be5fe238da481e2f1a5eed4f90fb114019b45d64fda238bc0e0216abd92f591e",
+        "note": "现存原文件"
+      }
+    ]
+  },
+  {
+    "id": "P22",
+    "name": "弦长期伴侣系统",
+    "aliases": [
+      "数字人；低延迟语音数字人；她；Xian；ABMB/MB；Home小家"
+    ],
+    "date": "2026-09-17",
+    "kind": "新立项",
+    "work": "语音/实时前端PoC→身份/Brain/共同经历→历史暂存/去重→微信接收发送/唤醒/重启恢复→Android/小家→MB信箱协议、MEM分层、A/B/M与LUNA值守的隔离建设和有限正式接线。",
+    "artifacts": "JS/TS/Android源码、Brain数据库/原历史、WeChat桥/服务、18次9/23提交、大量阶段测试/备份/审阅与交接。",
+    "status_sep30": "旧正式系统有真实聊天链路，但稳定性反复修复；9/30 R12只有有限持久B/公开读取观察，整体边界FAIL且生产NO_GO；R13未通过。不能用隔离测试说完整架构迁移完毕。",
+    "planned_only": "正式H2媒体整链、M全文received/handled、长期运行与P95、<20秒稳定目标仍未证；若干路线/任务书不是已投产。",
+    "dedup": "Brain/历史/微信/Android/小家/MB/MEM/LIFE24/N3/R系列都归同一伴侣系统，不能按阶段包增加项目。阿汐没有同一身份证据，未合并。",
+    "stopped": "候选多次NO_GO/封存/暂停，旧A未简单整体替换；具体正式采用按阶段时间判定。R14及formal-context-repair最终封存是北京时间10/1，不纳入九月完成度。",
+    "publication": "案例公开 · 完整实现私有",
+    "repository": "showcase",
+    "publication_note": "公开案例与精选演示；原始工程、完整剧本、策略与项目专用规则保留私有",
+    "evidence": [
+      {
+        "id": "E057",
+        "source_label": "PROGRESS.md",
+        "sha256": "3e8a052acf16e21ca380fa60c8ec7941cde97d4a4cdc1a424d51ae7dccf4b0cd",
+        "note": "现存原文件"
+      },
+      {
+        "id": "E058",
+        "source_label": "FINAL_EVIDENCE.json",
+        "sha256": "0b05c45bd455d8d8c0b72dbd056b4edcebfbfa4d3a9424e6b698366b7175820e",
+        "note": "现存原文件"
+      },
+      {
+        "id": "E059",
+        "source_label": "FINAL_FACTS.json",
+        "sha256": "fa7b78777b203e612d0edcdfa998376d2817de03e13be9c259b0677be669942f",
+        "note": "现存原文件"
+      }
+    ]
+  },
+  {
+    "id": "P23",
+    "name": "耳机产品动效展示页",
+    "aliases": [
+      "FORM-01构建痕迹；MDR-7506；Nothing Headphone(1)摄影版；motion-headphones"
+    ],
+    "date": "2026-09-18",
+    "kind": "新立项",
+    "work": "先做四段3D产品页/拖拽/结构展开/棚拍光线，后按用户反馈改成浅色摄影转场，匹配背景并重录清晰实际交互。",
+    "artifacts": "旧3D源码/展示ZIP，photo-v2页面、编辑后的图片、7秒实际MP4/GIF和桌面/窄屏截图。",
+    "status_sep30": "新版两段摄影研究可运行、录屏已交付；内部概念研究，非品牌委托。",
+    "planned_only": "商业品牌授权/电商服务/整站新版；不把2D摄影版叫实际3D新模型。",
+    "dedup": "同一耳机展示任务有明确替代关系，Sony旧版与Nothing新方向只计一次。",
+    "stopped": "9/19最终媒体明确父目录Sony版和模糊preview为obsolete/superseded。",
+    "publication": "案例公开 · 完整实现私有",
+    "repository": "showcase",
+    "publication_note": "公开案例与精选演示；原始工程、完整剧本、策略与项目专用规则保留私有",
+    "evidence": [
+      {
+        "id": "E060",
+        "source_label": "CASE.md",
+        "sha256": "ab088c1ad2a33175508d98a53545ff9aeb7e866516c4340203af2b5914b58734",
+        "note": "现存原文件"
+      },
+      {
+        "id": "E061",
+        "source_label": "NOTES.md",
+        "sha256": "4bf436129723780d7e9ea9f5b21c9600980b689d272eb4e081cfa6a1348d98e0",
+        "note": "现存原文件"
+      },
+      {
+        "id": "E062",
+        "source_label": "README.md",
+        "sha256": "0c63e3bb120928735cff0c7cf74ae04f6e753f511bdccedf77533ac192d27c88",
+        "note": "现存原文件"
+      }
+    ]
+  },
+  {
+    "id": "P24",
+    "name": "AURE Orbit01灯具展示页",
+    "aliases": [
+      "AURE；motion-lighting；交互光影灯"
+    ],
+    "date": "2026-09-18",
+    "kind": "新立项",
+    "work": "以三张源图/WebGL光照贡献做亮度0—100、色温2200—4000调节、滚动构图及中英文/动效。",
+    "artifacts": "自包含展示HTML、源码/图像、19秒实际录屏MP4/GIF、媒体校验。",
+    "status_sep30": "独立可演示产品页；是图像合成/光照效果，不是灯具真实物理仿真或制造品。",
+    "planned_only": "真实商品后台/销售与硬件。",
+    "dedup": "和AUREL GT名字相近，但对象、源代码、工作树、交付均不同，不能合并。",
+    "stopped": "未见明确停项。",
+    "publication": "案例公开 · 完整实现私有",
+    "repository": "showcase",
+    "publication_note": "公开案例与精选演示；原始工程、完整剧本、策略与项目专用规则保留私有",
+    "evidence": [
+      {
+        "id": "E063",
+        "source_label": "README.md",
+        "sha256": "099ebb3923236a9aca75ed2175b7dcb8263b9b7b333ed54414da6f1ee4676121",
+        "note": "现存原文件"
+      }
+    ]
+  },
+  {
+    "id": "P25",
+    "name": "MUYU木序星循No.01机械展示",
+    "aliases": [
+      "木制行星仪；motion-kinetic；kinetic sculpture"
+    ],
+    "date": "2026-09-18",
+    "kind": "新立项",
+    "work": "Three.js程序几何，六齿轮/三行星/卫星、上弦/启停、声景、分享卡/语言；生成展示媒体。",
+    "artifacts": "自包含HTML(约558KB)、源码、分享PNG、19秒MP4/GIF。",
+    "status_sep30": "可交互机械艺术概念页；运动是确定性演示，不是实际可制造的机械验证。",
+    "planned_only": "制造/受力/材料工程、真实商品。",
+    "dedup": "独立机械艺术brief及交付；未被最终五个作品集案例选中不影响其存在。",
+    "stopped": "未发现停止或废弃声明。",
+    "publication": "案例公开 · 完整实现私有",
+    "repository": "showcase",
+    "publication_note": "公开案例与精选演示；原始工程、完整剧本、策略与项目专用规则保留私有",
+    "evidence": [
+      {
+        "id": "E064",
+        "source_label": "README.md",
+        "sha256": "6c9fc8c1496b799499d1c2650bfe94436c912d4b2ceef1efa61f9ea6ee4362e8",
+        "note": "现存原文件"
+      }
+    ]
+  },
+  {
+    "id": "P26",
+    "name": "AUREL GT汽车3D发布页",
+    "aliases": [
+      "motion-automotive；AUREL-GT"
+    ],
+    "date": "2026-09-18",
+    "kind": "新立项",
+    "work": "真实3D摄像机轨迹、车灯/反射、三车漆/光照/视角、360拖拽、中英、配置JSON下载和离线启动器。",
+    "artifacts": "构建site与源码、Windows本机预览脚本、模型来源/manifest/validation、MP4/GIF。",
+    "status_sep30": "本机HTTP/WebGL2概念站交付；模型是有署名第三方改编，手机只是视口模拟。",
+    "planned_only": "真实购车、预约、支付、汽车工程参数和原始造型。",
+    "dedup": "与AURE灯具无同一项目证据；四个ProductMotion brief分别独立，父目录不是第五项目。",
+    "stopped": "无停项证据；最终作品集未选择不等于撤项。",
+    "publication": "案例公开 · 完整实现私有",
+    "repository": "showcase",
+    "publication_note": "公开案例与精选演示；原始工程、完整剧本、策略与项目专用规则保留私有",
+    "evidence": [
+      {
+        "id": "E065",
+        "source_label": "README.md",
+        "sha256": "438e47f1337601ad2ba9b78a8d4a2f2d8369d5bb2f7993ba55e784801a092326",
+        "note": "现存原文件"
+      },
+      {
+        "id": "E066",
+        "source_label": "validation.md",
+        "sha256": "00626fe05af1ee38ed9d465ad3f2c11f87085e51272406a0cc3553cbb56ed223",
+        "note": "现存原文件"
+      }
+    ]
+  },
+  {
+    "id": "P27",
+    "name": "汽车消费/汽车后市场理论文章",
+    "aliases": [
+      "推动先进制造与流通消费改革协同发力"
+    ],
+    "date": "2026-09-17",
+    "kind": "内容作品",
+    "work": "深化选题，融入天津部署，写2500字正文并做有界语料重合核验；9/21按用户改稿学习/调整。",
+    "artifacts": "选题结构DOCX、正文DOCX/文本、核验JSON、来源与修改材料。",
+    "status_sep30": "已生成约2500字文章稿(历史核验正文2404非空字符)；投稿/刊发未证。词面重合检查不是原创性认证。",
+    "planned_only": "正式投稿、编辑审稿/发表、全面查重。",
+    "dedup": "后市场→汽车消费为同一文章调整链；不因每份DOCX副本或稿名不同重复计数。",
+    "stopped": "旧题目/段落被调整稿替代，未证停止。",
+    "publication": "案例公开 · 完整实现私有",
+    "repository": "showcase",
+    "publication_note": "公开案例与精选演示；原始工程、完整剧本、策略与项目专用规则保留私有",
+    "evidence": [
+      {
+        "id": "E067",
+        "source_label": "汽车后市场选题深化与行文结构.docx",
+        "sha256": "e41eec9e73ee860fed034e40fbba67a7f295dead3b5f8d5f65733099e45fc372",
+        "note": "现存原文件"
+      },
+      {
+        "id": "E068",
+        "source_label": "核验记录.json",
+        "sha256": "dbbc10e939c81d9e4af725ef8e1e60f3cb0cc975d2ef97d3f39a9721f048292e",
+        "note": "现存原文件"
+      },
+      {
+        "id": "E069",
+        "source_label": "汽车消费正文_20260920",
+        "sha256": null,
+        "note": "现存原文件"
+      }
+    ]
+  },
+  {
+    "id": "P28",
+    "name": "津派文化AI音视频参赛选题研究",
+    "aliases": [
+      "一根线织到今天；年画少一条鱼；盐；海河四候选"
+    ],
+    "date": "2026-09-19",
+    "kind": "调研",
+    "work": "对日报库做23词面查询/101去重来源线索、回读关键段落和外部核验，交四个创意候选。",
+    "artifacts": "选题建议、检索/回读JSON、来源哈希核对。",
+    "status_sep30": "完成候选研究；无脚本、音视频制作或投稿。",
+    "planned_only": "四候选均是拟议故事和应用场景，不是四部影片或四个已立项项目。",
+    "dedup": "一份选题委托四个候选，只计一项研究。",
+    "stopped": "未确认最终选题，制作分支未启动。",
+    "publication": "案例公开 · 完整实现私有",
+    "repository": "showcase",
+    "publication_note": "公开案例与精选演示；原始工程、完整剧本、策略与项目专用规则保留私有",
+    "evidence": [
+      {
+        "id": "E070",
+        "source_label": "选题建议.md",
+        "sha256": "fd1d8d50603e71b023f8aa1ef77c9824b16e6959b71414751236362dc7f4e4aa",
+        "note": "现存原文件"
+      },
+      {
+        "id": "E071",
+        "source_label": "来源核对.json",
+        "sha256": "7f0c2c499c90b39a6b1a79f5a6550ea8e14a54a9304bb87242ad0b8b1e6b5103",
+        "note": "现存原文件"
+      }
+    ]
+  },
+  {
+    "id": "P29",
+    "name": "DSH本机部署与工具接入",
+    "aliases": [
+      "DeepSeek Helper；OpenCode Go；Exa MCP接入"
+    ],
+    "date": "2026-09-22",
+    "kind": "一次性实验",
+    "work": "安装本地DSH、分离聊天/搜索通道、启动停止快捷方式；模型列表补接V4.1并真实回复；后续技能和Exa搜索工具接入。",
+    "artifacts": "DSH目录/本地服务、启动停止脚本、验收说明、工具/技能与研究工作区。",
+    "status_sep30": "聊天和限定搜索实测可用；实际账号费用/每条后续内容质量不能由安装验收外推。",
+    "planned_only": "未接通能力不算安装；无法将官方搜索余额问题视作功能已修复。",
+    "dedup": "DSH平台部署计一个实验；其项目内容有独立产物时另列；第三方Skill不是用户自研新项目。",
+    "stopped": "旧V4默认改V4.1；后续联网路线按实际配置分支调整，未见DSH停项。",
+    "publication": "案例公开 · 完整实现私有",
+    "repository": "showcase",
+    "publication_note": "公开案例与精选演示；原始工程、完整剧本、策略与项目专用规则保留私有",
+    "evidence": [
+      {
+        "id": "E072",
+        "source_label": "使用说明.md",
+        "sha256": "391891abd7f5c87e07c86e980a5999389ae5f748baf0c417ea1e6a7769812680",
+        "note": "现存原文件"
+      }
+    ]
+  },
+  {
+    "id": "P30",
+    "name": "百世登仙",
+    "aliases": [
+      "project-1；第一版试玩v0.2/v0.3"
+    ],
+    "date": "2026-09-25",
+    "kind": "新立项",
+    "work": "接收修仙数值原型并在本机改成渐进披露/探索路径；首段青岚山野到古宗山门视觉、敌人、战斗/进度与存档。",
+    "artifacts": "engine/data/discovery/app、249050字节离线HTML、引擎57＋披露14＋旧slice32＋首段10历史测试/真实Edge截图、交接。",
+    "status_sep30": "第一段可玩且冻结数值指纹保持；尚未玩家试玩证明好玩，也非原作终局逐事件等价复刻。",
+    "planned_only": "正常通关时长、终局对拍、真实玩家体验与发行。",
+    "dedup": "独立README/引擎/存档/玩法，不因修仙/青岚字样合并X计划或青岚骨骼实验。",
+    "stopped": "信息披露/首段视觉替代旧体验层，数值内核保留。",
+    "publication": "案例公开 · 完整实现私有",
+    "repository": "showcase",
+    "publication_note": "公开案例与精选演示；原始工程、完整剧本、策略与项目专用规则保留私有",
+    "evidence": [
+      {
+        "id": "E074",
+        "source_label": "README.md",
+        "sha256": "6853593ba7f79fd7de41d15045f772a2ba8779d3d752a5752f22ec04b85f0e1b",
+        "note": "现存原文件"
+      },
+      {
+        "id": "E075",
+        "source_label": "FIRST_STAGE_RESULT.md",
+        "sha256": "535e3770a49f35352bd9e556484e9a0726df56b6a7f7aa9d7b2c2a2ab513dbcc",
+        "note": "现存原文件"
+      },
+      {
+        "id": "E076",
+        "source_label": "STATUS.json",
+        "sha256": "50dadda7e9e76852ca6513427ebcca558d62266948d7b055e9d188ab0cf384f8",
+        "note": "现存原文件"
+      }
+    ]
+  },
+  {
+    "id": "P31",
+    "name": "万物英文图鉴/趣味英语内容",
+    "aliases": [
+      "红书；project-2；小红书冷启动包；bellows；tart"
+    ],
+    "date": "2026-09-25",
+    "kind": "内容作品",
+    "work": "搭卡片生产链，选题/词义核验，前10篇文案/图卡；剪映MCP/配音/图像/SVG合成，bellows迭代v2—v5，tart新闻与词义短片。",
+    "artifacts": "图卡/HTML/PNG/选题表、生成脚本、发布文案、bellows16秒竖屏MP4、tart样片、剪映工程与交接ZIP。",
+    "status_sep30": "本地图文和动画样片已产生；v4用户指出缺形变，v5补动路径/抽帧证据；未发布，v5用户评价未取得。",
+    "planned_only": "账号发布/自动运营、Cookie与账号接入没有实施；SVG调研文档不是已生成视频。",
+    "dedup": "红书登记入口与project-2由交接指向同一内容号；每天选题/同片版本/12剪映草稿不算12项目。",
+    "stopped": "v4只有推镜/标注的路线被v5形变窗替代；旧草稿保留。",
+    "publication": "案例公开 · 完整实现私有",
+    "repository": "showcase",
+    "publication_note": "公开案例与精选演示；原始工程、完整剧本、策略与项目专用规则保留私有",
+    "evidence": [
+      {
+        "id": "E077",
+        "source_label": "README.md",
+        "sha256": "153215c344e64ffbeda7a98c3e74a63f460fd5585784a5b28bb73468b47e9fdb",
+        "note": "现存原文件"
+      },
+      {
+        "id": "E078",
+        "source_label": "交付-v5.md",
+        "sha256": "5b3a287b672a67b05371b449c1d4bbd73bd6e2fa6f486d529cf8467b3697143a",
+        "note": "现存原文件"
+      },
+      {
+        "id": "E079",
+        "source_label": "发布文案.md",
+        "sha256": "df34b4444bdf6d478f10a1a242f455d215ab15c81d67ace9a18d4e2aeee89161",
+        "note": "现存原文件"
+      },
+      {
+        "id": "E080",
+        "source_label": "环境验收报告.md",
+        "sha256": "07ba7dc2feb09e31a773f0868cf2b9a377a1e47942d15ca3ce5e87dc288ae9aa",
+        "note": "现存原文件"
+      }
+    ]
+  },
+  {
+    "id": "P32",
+    "name": "欢乐本语料/OCR与设计知识库工程",
+    "aliases": [
+      "project-novel；THEATER_CORPUS Phase0；PHASE1_ANALYSIS/SUPPLEMENT"
+    ],
+    "date": "2026-09-25",
+    "kind": "新立项",
+    "work": "开发PDF探测/转换/去重/定位/质量管线与分档benchmark；转224PDF；建13本机制分析、分类/数值/DM/复盘/道具资料和10概念。",
+    "artifacts": "Python管线、213唯一文件/4645页转换、Markdown/结构JSON/图像/定位、20份真实benchmark、机制v2/知识库。",
+    "status_sep30": "数据层完成程序校验与有界复核；222 PASS/2 NEEDS_REVIEW；二次设计层是AI分析，不是原作者事实。源E盘已不在线。",
+    "planned_only": "全部字级人工校勘、非PDF媒体全量保全、正式创作系统/小程序与知识正确性全面验证。",
+    "dedup": "数据库/生产参数是独立资料工程；原创《已完成，请查收》使用它但不是库的别名。pipeline各阶段/中间JSON不加项目数。",
+    "stopped": "第一轮58字段机制v1废弃存档，mechanisms_v2为主；OCR报告纠正旧时间/elapsed字段语义。",
+    "publication": "案例公开 · 完整实现私有",
+    "repository": "showcase",
+    "publication_note": "公开案例与精选演示；原始工程、完整剧本、策略与项目专用规则保留私有",
+    "evidence": [
+      {
+        "id": "E081",
+        "source_label": "CONVERSION_REPORT.md",
+        "sha256": "e4510cb8b58d0d1e35ee172e062be09e36283832e0d60f1127dee56c009e4117",
+        "note": "现存原文件"
+      },
+      {
+        "id": "E082",
+        "source_label": "README.md",
+        "sha256": "8bf8b99ca19ae7d70b567960a18693cee7757d78d0bcb24df6456c6fcffcf4d8",
+        "note": "现存原文件"
+      },
+      {
+        "id": "E083",
+        "source_label": "pipeline",
+        "sha256": null,
+        "note": "现存原文件"
+      }
+    ]
+  },
+  {
+    "id": "P33",
+    "name": "剧本杀市场、形态与创作工具调研",
+    "aliases": [
+      "欢乐本市场；短时本/线上本/沉浸演出；Novelcrafter工作流研究"
+    ],
+    "date": "2026-09-25",
+    "kind": "调研",
+    "work": "比较三类剧本产品、短时本、线上平台和相邻市场；整理投稿/运营约束，调查Novelcrafter API/写作流程与本地资料结构。",
+    "artifacts": "至少多份专题Markdown及抓取来源；市场/工具/创作数据库设计文档。",
+    "status_sep30": "实际研究文档完成；观点和市场判断不等同产品市场验证。Novelcrafter写入/服务平台未证。",
+    "planned_only": "题为CREATIVE_DATABASE_SCHEMA的方案不等于完整平台施工；各市场提案未上线。",
+    "dedup": "同一批欢乐本创作前研究合为一项调研，避免每份报告算一项目；它不是THEATER_CORPUS转换结果。",
+    "stopped": "候选形态对比不自动意味着其他形态已立项或已停项。",
+    "publication": "案例公开 · 完整实现私有",
+    "repository": "showcase",
+    "publication_note": "公开案例与精选演示；原始工程、完整剧本、策略与项目专用规则保留私有",
+    "evidence": [
+      {
+        "id": "E084",
+        "source_label": "jubensha-huanle-2026-research.md",
+        "sha256": "d8cfdc67f2e04ee4605cc1d1f508b915c2ce33d364c8e34b7548a85d23b44820",
+        "note": "现存原文件"
+      },
+      {
+        "id": "E085",
+        "source_label": "jubensha-3-forms-report.md",
+        "sha256": "2dbb3380b00aac04005b8b5aadeff853ea97a89bdd4560909ce13732d0b5dbd7",
+        "note": "现存原文件"
+      },
+      {
+        "id": "E086",
+        "source_label": "NOVELCRAFTER_THEATER_WORKFLOW.md",
+        "sha256": "ca14d2ac34362a6b2cfc185c2848de31fda2eb9a7451c9ddb4128b09097d5356",
+        "note": "现存原文件"
+      },
+      {
+        "id": "E087",
+        "source_label": "novelcrafter-api-investigation.md",
+        "sha256": "9fb4e50c95d626faad4130d6e4203bc476f7315b6aa8a308d1caa92068a8adbd",
+        "note": "现存原文件"
+      }
+    ]
+  },
+  {
+    "id": "P34",
+    "name": "恋综追妻小说选题与拆书试点",
+    "aliases": [
+      "IDEA-20260925-04；小说；project-tomato；男主主动追妻"
+    ],
+    "date": "2026-09-26",
+    "kind": "内容作品",
+    "work": "评论DSH前期选题，修正关系方向，写五段原创大纲和开篇示例；核十本对标，三本免费段试拆/横向比较与阅读记录。",
+    "artifacts": "历史大纲/开篇、拆书模板/书目、三份分析、来源状态/比较/下一步；project-tomato资料。",
+    "status_sep30": "有可开写的故事骨架与有界拆书。两本实际15章、第三本67章(后52章委派且抽查未升格)，没有完整小说正文/全书深拆完成证据。",
+    "planned_only": "完整中段/结尾研究、番茄加密正文可靠读取、原创连载/成书。",
+    "dedup": "选题/书单/三次试拆为同一原创筹备任务；《东京声士》独立数据库产物另列候选，关系未自动合并。",
+    "stopped": "一度把女方追妻当主轴的回答被用户纠正；最新版男主追、女主选择。部分样本不再深拆为建议，不等于所有小说计划停掉。",
+    "publication": "案例公开 · 完整实现私有",
+    "repository": "showcase",
+    "publication_note": "公开案例与精选演示；原始工程、完整剧本、策略与项目专用规则保留私有",
+    "evidence": [
+      {
+        "id": "E089",
+        "source_label": "来源与阅读状态表.md",
+        "sha256": "69f7e67994f21f410e995cc19007a3b8bfb8f49a801a316a6e3062217e341294",
+        "note": "现存原文件"
+      },
+      {
+        "id": "E090",
+        "source_label": "试拆结论与下一步.md",
+        "sha256": "0eb12bcea4da4832221fb0acaa80ce4d472e87a24e9fde5ee2245146655042ef",
+        "note": "现存原文件"
+      },
+      {
+        "id": "E091",
+        "source_label": "project-tomato",
+        "sha256": null,
+        "note": "现存原文件"
+      }
+    ]
+  },
+  {
+    "id": "P35",
+    "name": "欢乐本《已完成，请查收》",
+    "aliases": [
+      "Follower AI欢乐本；六个AI一个鼠标；创作首版v1/六幕优化v1.1/v1.2"
+    ],
+    "date": "2026-09-26",
+    "kind": "内容作品",
+    "work": "六人角色、故事/事故真相、六幕DM流程、认证/画链/故事/绳控/证据/地图竞争、初始数值与物料；9/27优化并产生作者主持全本。",
+    "artifacts": "本地v1/v1.1作者/角色/DM文本、静态检查/ZIP、地图样图、科举参考阅读包；微信附件v1.2全本DOCX。",
+    "status_sep30": "本地入口仍指v1.1；本机最新作品产物为9/27 v1.2全本，225分钟设计时长未实测。v1.1历史静态通过不能自动升级为v1.2真人验收。",
+    "planned_only": "真人试本、小程序实现、完整独立印刷物料、美术定稿和商业发行。",
+    "dedup": "会议纪要、六幕与三个版本同题同角色/事件链；科举是参考材料打包，不是新增自研作品。",
+    "stopped": "旧第四幕审核/词语默写/整回合罚停不再与v1.1并行；v1.2为最新作品附件，源目录是否同步不明。",
+    "publication": "案例公开 · 完整实现私有",
+    "repository": "showcase",
+    "publication_note": "公开案例与精选演示；原始工程、完整剧本、策略与项目专用规则保留私有",
+    "evidence": [
+      {
+        "id": "E092",
+        "source_label": "当前创作入口.md",
+        "sha256": "200d6788a7b3ce23a1cec0f3767788a6dd4de6c28a7205349a80e91152e17cf4",
+        "note": "现存原文件"
+      },
+      {
+        "id": "E093",
+        "source_label": "00_从这里开始.md",
+        "sha256": "aaaf012df67c0a199289c3336c5947702ed76a933fd9184f86a95e6a8c24070b",
+        "note": "现存原文件"
+      },
+      {
+        "id": "E094",
+        "source_label": "已完成请查收_v1.2_作者与主持人全本.docx",
+        "sha256": "69fec308ea3bedec7f4f486061b91084ed52f66df22764fe05972ce8462646cd",
+        "note": "现存原文件"
+      }
+    ]
+  },
+  {
+    "id": "P36",
+    "name": "天津五大道体验经济研究方向",
+    "aliases": [
+      "文旅消费＋小规模渐进式更新＋政策路径"
+    ],
+    "date": "2026-09-26",
+    "kind": "调研",
+    "work": "检索本地相邻文章与官方政策/项目报道，提出并按用户修正为“怎样发展五大道”的政策研究方向。",
+    "artifacts": "带具体来源的历史研究答复；未发现独立正文文件。",
+    "status_sep30": "完成题目/方向级研究；消费效果与机制原创性仍待实证。",
+    "planned_only": "不是论文大纲/文章完稿，也未开展商户/游客实地数据采集。",
+    "dedup": "研究对象和委托不同于汽车消费及津派参赛；一项方向研究，不按两次答复计数。",
+    "stopped": "前一过度机制化题目已按用户要求收窄。",
+    "publication": "案例公开 · 完整实现私有",
+    "repository": "showcase",
+    "publication_note": "公开案例与精选演示；原始工程、完整剧本、策略与项目专用规则保留私有",
+    "evidence": []
+  },
+  {
+    "id": "P37",
+    "name": "ChatGPT Pro通信线部署实验",
+    "aliases": [
+      "codex-chatgpt-pro-plugin；chatgpt-pro-line"
+    ],
+    "date": "2026-09-27",
+    "kind": "一次性实验",
+    "work": "获取现成插件，安装配置持久浏览器/会话绑定，完成实际通信探针及接入工作流。",
+    "artifacts": "插件配置/Skill、本地上游源码副本、setup记录/测试与回执。",
+    "status_sep30": "当前配置有实际调用结果；第三方源码不是用户自研插件，未证明任意任务长期稳定。",
+    "planned_only": "未完成能力/后台持续工作不因插件存在自动成立。",
+    "dedup": "安装、验证、集成同计一次；上游六月Git历史不作个人九月提交。",
+    "stopped": "旧失败探针保留，成功分支接续；没有停用证据。",
+    "publication": "案例公开 · 完整实现私有",
+    "repository": "showcase",
+    "publication_note": "公开案例与精选演示；原始工程、完整剧本、策略与项目专用规则保留私有",
+    "evidence": [
+      {
+        "id": "E096",
+        "source_label": "chatgpt-pro-setup",
+        "sha256": null,
+        "note": "现存原文件"
+      }
+    ]
+  },
+  {
+    "id": "P38",
+    "name": "璀璨对局与本地策略求解",
+    "aliases": [
+      "璀璨联赛；璀璨联赛2；Splendor宝可梦；v0.1—v0.4.3；策略v0.5—v0.9"
+    ],
+    "date": "2026-09-28",
+    "kind": "新立项",
+    "work": "规则/90卡和100进化边审计，裁判/SQLite回放；真人＋三Astra实局；旁路胜率、脚本训练/留出筛选；9/30零Token v0.6/v0.8/v0.9随机盲测与后台复盘。",
+    "artifacts": "自有4次Git提交、网页牌桌、规则/契约测试、真实首局89事件回放、训练/检查点/封存源码、策略审计与盲测报告。",
+    "status_sep30": "模型桌有实局；本地盲测接入/回放通过。v0.6仍推荐，v0.8/0.9区间跨零未证更强；自动策略晋升/真实模型棋力提升未证。",
+    "planned_only": "全面美术改版暂停；严格OS隔离、生产每局自动学习、校准真人胜率没有通过。",
+    "dedup": "联赛/联赛2聊天指向同一源规则桌；脚本策略为同一游戏研究模块，版本/四席不加项目。",
+    "stopped": "候选v0.7退化未晋升；v0.8与v0.9是平行分支；不能按最新编号覆盖v0.6。",
+    "publication": "案例公开 · 完整实现私有",
+    "repository": "showcase",
+    "publication_note": "公开案例与精选演示；原始工程、完整剧本、策略与项目专用规则保留私有",
+    "evidence": [
+      {
+        "id": "E098",
+        "source_label": "README.md",
+        "sha256": "df8504b7d921dbc672290df10c0ac1b93a739e58a461b0f14126bc8ef8fe4879",
+        "note": "现存原文件"
+      },
+      {
+        "id": "E099",
+        "source_label": "audit-summary.json",
+        "sha256": "c91ef686d568fec2db10f444fcc0377eb6f3997ed8fbfcb4e2853cd45f71f204",
+        "note": "现存原文件"
+      },
+      {
+        "id": "E100",
+        "source_label": "acceptance.json",
+        "sha256": "47faca0c707b308ddf459fc608c6228ded3b747d703dddc93c4bef74959706f4",
+        "note": "现存原文件"
+      }
+    ]
+  },
+  {
+    "id": "P39",
+    "name": "手机随行SisterPhone",
+    "aliases": [
+      "随行；姐姐；掌心窗；linjian-peek-public；SisterPhone-private/gateway"
+    ],
+    "date": "2026-09-28",
+    "kind": "新立项",
+    "work": "沿现成Android/MCP项目部署本机server/MCP/tunnel/relay；私有重打包、后续沿原签名sister16安装，修开屏头像/通知/旧休息文案并实机观察。",
+    "artifacts": "[本机留档]。",
+    "status_sep30": "9/30 06:39限定验收：APK安装、开屏/通知/文案/非空设备状态与WiFi/无障碍确认；完整138工具、5G/弱网/语音/重启和长后台未过。",
+    "planned_only": "全部工具可用、真实蜂窝写操作、自动休息计划实际调度、长期稳定。",
+    "dedup": "上游版本、独立私有包与原签名后续版本均同手机随行任务；服务/tunnel不是四个项目。和弦有连接边界但独立产品与验收。",
+    "stopped": "早期私有重签包仅打包未安装，后续原签名sister16路线取代；state:null旧失败被限定non-null回执修复，不删除历史。",
+    "publication": "案例公开 · 完整实现私有",
+    "repository": "showcase",
+    "publication_note": "公开案例与精选演示；原始工程、完整剧本、策略与项目专用规则保留私有",
+    "evidence": [
+      {
+        "id": "E102",
+        "source_label": "随行-交付与验收.md",
+        "sha256": "761c60b7fbdbeb1f7e5db7c631485140824209c5918228809a8f519ba0b4e8f5",
+        "note": "现存原文件"
+      },
+      {
+        "id": "E103",
+        "source_label": "BUILD_REPORT.md",
+        "sha256": "c71047e15e18fe9034a50492f01c82ab861768ca0979b85b8bd17fdbf619aeb4",
+        "note": "现存原文件"
+      }
+    ]
+  },
+  {
+    "id": "P40",
+    "name": "Hermes Agent源码架构研究",
+    "aliases": [
+      "Hermes与弦对照；hermes-research"
+    ],
+    "date": "2026-09-30",
+    "kind": "调研",
+    "work": "固定官方12c3d5c源码，拆十主题、A/B/M/记忆/工具/渠道/OAuth对照，提5个最小实验。",
+    "artifacts": "45815字节报告、3图、89源码文件索引/清单、源码副本/ZIP与静态校验。",
+    "status_sep30": "第一阶段研究交付；89文件链接/哈希/覆盖检查通过，不是运行/OAuth/长期可用测试。",
+    "planned_only": "五个实验均未施工；没有因此替换弦底层或验证本账号模型额度。",
+    "dedup": "独立研究报告计一项；提案和89文件不是90个项目；后续采用属于弦子模块。",
+    "stopped": "报告不建议直接成为弦底层；五提案停在方案阶段。",
+    "publication": "案例公开 · 完整实现私有",
+    "repository": "showcase",
+    "publication_note": "公开案例与精选演示；原始工程、完整剧本、策略与项目专用规则保留私有",
+    "evidence": [
+      {
+        "id": "E105",
+        "source_label": "HERMES_源码研究与弦架构对照.md",
+        "sha256": "63b5b4e6536aee8aa3f8c7489c232dbb95b134cc939f45f0ed021f5064a28e6e",
+        "note": "现存原文件"
+      },
+      {
+        "id": "E106",
+        "source_label": "VERIFICATION.json",
+        "sha256": "b725769ac8702c8652eedaa2f5533d83ddcce1d2796563abe52a1b1943a1979d",
+        "note": "现存原文件"
+      }
+    ]
+  },
+  {
+    "id": "P41",
+    "name": "Codex本地用量网页",
+    "aliases": [
+      "codex_usage；cui；Token与额度监控"
+    ],
+    "date": "2026-09-30",
+    "kind": "新立项",
+    "work": "复用上游v1.5.4做本地用量/聊天/项目/额度网页；补价格；修子代理合并/重复累计/漏历史；重建索引；修独立后台启动。",
+    "artifacts": "本地源码变化/SQLite索引、页面、93项历史测试与555日志独立核算、启动cmd/日志、截图/安装与统计核验。",
+    "status_sep30": "9/30网页可打开且服务恢复；本机84.27亿与官方截图86.4亿仍有约2.1亿未归因。金额为估算。",
+    "planned_only": "账号全历史完全对齐；Windows登录计划任务/退出自动拉起的完成回执在10/1，不纳入九月。",
+    "dedup": "上游CLI+网页修复同一工具；cui各acceptance/probe/output是其测试资料不另计。",
+    "stopped": "子代理归属/解析旧实现替换；服务停止故障有恢复；未见停项。",
+    "publication": "案例公开 · 完整实现私有",
+    "repository": "showcase",
+    "publication_note": "公开案例与精选演示；原始工程、完整剧本、策略与项目专用规则保留私有",
+    "evidence": [
+      {
+        "id": "E108",
+        "source_label": "安装验收记录.json",
+        "sha256": "508525fbff69e4f2911102db65f6ad825b65834387a29b60d376ba0f12da3dc9",
+        "note": "现存原文件"
+      },
+      {
+        "id": "E109",
+        "source_label": "Token统计差异核验.json",
+        "sha256": "90888782f458f331dec2136877b1875c6b5f298efe9fc0130543782703cc76de",
+        "note": "现存原文件"
+      }
+    ]
+  },
+  {
+    "id": "P42",
+    "name": "《基层中国》40分钟学术读书分享",
+    "aliases": [
+      "基层中国的运行逻辑；35页正式稿；5页/建筑杂志/双主线/映射样稿"
+    ],
+    "date": "2026-09-21",
+    "kind": "内容作品",
+    "work": "保全14PDF/206页资料；多轮样稿与版式/文献映射；9/27做35页40分钟正式可编辑PPT/讲稿/图表来源。",
+    "artifacts": "PPTX、PDF、逐页讲稿、40分钟节奏CSV、图表数据/来源、源材料包、验收JSON。",
+    "status_sep30": "35页正式稿有可编辑性和历史渲染检查；全部原书未取得，只能基于已给论文/可得前言目录等材料。",
+    "planned_only": "真实现场分享、听众评价及整书通读不在已证范围。",
+    "dedup": "所有样稿/照片更正/论文展示均同一次读书分享，不能按十个输出目录计十项。",
+    "stopped": "旧样稿被35页正式稿替代，仍保全；无停项证据。",
+    "publication": "案例公开 · 完整实现私有",
+    "repository": "showcase",
+    "publication_note": "公开案例与精选演示；原始工程、完整剧本、策略与项目专用规则保留私有",
+    "evidence": [
+      {
+        "id": "E111",
+        "source_label": "使用说明.md",
+        "sha256": "95f1a0a51e02b5ab817b9182bd44dfa6639fd747ea9acf01cf8cffa30e49174c",
+        "note": "现存原文件"
+      },
+      {
+        "id": "E112",
+        "source_label": "验收记录.json",
+        "sha256": "658675016689ba53d2b5bd0b294ceaf4bb3a03d100a74a262a2444f71faff4b5",
+        "note": "现存原文件"
+      }
+    ]
+  },
+  {
+    "id": "P43",
+    "name": "青岚骨骼压力测试/恢复接手",
+    "aliases": [
+      "Qinglan Stress Lab；upstream-qinglan"
+    ],
+    "date": "2026-09-07",
+    "kind": "一次性实验",
+    "work": "复原三段交接ZIP，保留original和run-copy、引入白衣修士研究链；源包已含33骨骼/9网格压力姿态与Windows构建/视频。",
+    "artifacts": "89项源包/manifest、Godot工程、Windows EXE、三MP4、18运行检查/625姿态采样的生产者记录，本机恢复副本。",
+    "status_sep30": "独立技术实验有实质工程/构建/录屏；本机可确认接手/复原。源包技术结果不等于本机此次重新执行或宽袖视觉满意。",
+    "planned_only": "最终角色视觉、宽袖形变质量；不把准备文档或源包PASS当本机现场复测。",
+    "dedup": "虽放X角色子目录，但独立压力测试目标/工程/EXE，按一次实验单列；不计成第二个修仙游戏。",
+    "stopped": "骨骼变形视觉仍有限制；RECOVERY_PREPARED旧“待分卷”状态已落后于现存original/run-copy。",
+    "publication": "案例公开 · 完整实现私有",
+    "repository": "showcase",
+    "publication_note": "公开案例与精选演示；原始工程、完整剧本、策略与项目专用规则保留私有",
+    "evidence": [
+      {
+        "id": "E114",
+        "source_label": "00_CODEX_HANDOFF.md",
+        "sha256": "8a6286ec6f7df58fb08358898dd8dec36c197d06987093340314a2190465fc3b",
+        "note": "现存原文件"
+      },
+      {
+        "id": "E115",
+        "source_label": "handoff_relocated_runtime_checks.json",
+        "sha256": "4f3b6c4bd98390f529372b5d9d4bf5ff26da00b1c7a596e25524e48b196f1788",
+        "note": "现存原文件"
+      }
+    ]
+  },
+  {
+    "id": "P44",
+    "name": "客户获客与邮件接洽工作流",
+    "aliases": [
+      "海投；客户监控；付费项目检索与Gmail外联"
+    ],
+    "date": "2026-09-18",
+    "kind": "新立项",
+    "work": "建设检索/线索筛选、公司去重、材料版本同步、邮件正文/附件/CID核对、Gmail提交、回复/退信分类与周期检查；9/20做渠道偏差复核，9/21续搜。",
+    "artifacts": "outreach_run.py、客户监控台账、材料同步脚本、线索/渠道/平台覆盖报告、Gmail提交回执/退信与自动确认、8轮run_history。",
+    "status_sep30": "真实发送已发生：9/19该轮3封提交含1退信/1自动确认；9/20 14:32该轮2封含1退信。提交不等于收件/阅读/成交；当时43个contact条目也不等于43有效付费客户。",
+    "planned_only": "实际付费成交/人工合作意向未证；近期真实付费需求与招聘/人才库入口不能混同。",
+    "dedup": "目标是持续筛客/发信/监控，有独立程序和台账；P18是网站/资料生产。共用PDF和GIF是依赖关系，不重复计算媒体或每轮邮件。",
+    "stopped": "9/19恢复投递；9/20 18:14执行者据用户质疑暂停新增发送，sending_enabled=false，检索/回信检查保留。台账明确这不是用户要求暂停的原话；后续未见恢复发送证明。",
+    "publication": "案例公开 · 完整实现私有",
+    "repository": "showcase",
+    "publication_note": "公开案例与精选演示；原始工程、完整剧本、策略与项目专用规则保留私有",
+    "evidence": [
+      {
+        "id": "E117",
+        "source_label": "outreach_run.py",
+        "sha256": "ce0bd0653a0f45230e9ff365befe6533979ff9a33db14c26e9a31cbfce460f54",
+        "note": "现存原文件"
+      },
+      {
+        "id": "E118",
+        "source_label": "客户监控台账.json",
+        "sha256": "a88e73632e69dd652077918b2f834339b71ea543e90c31f18e6782f82931d989",
+        "note": "现存原文件"
+      },
+      {
+        "id": "E119",
+        "source_label": "本轮结果.md",
+        "sha256": "3b6abcfcd44a319fd45643a5229f7bb6a4908a7f374532012ffb10c83ba1230a",
+        "note": "现存原文件"
+      },
+      {
+        "id": "E120",
+        "source_label": "本轮投递结果.md",
+        "sha256": "e9d392d95b399b19b10493a716b1d7eed35e633ddac51c75779a86b17ec90236",
+        "note": "现存原文件"
+      }
+    ]
+  },
+  {
+    "id": "P45",
+    "name": "《瀚帝本纪》私人编年史与续写",
+    "aliases": [
+      "私人编年内容整理；主册与续篇；版本校勘"
+    ],
+    "date": "2026-09-01",
+    "kind": "内容作品",
+    "work": "整理与续写个人编年内容，形成主册、图证及版本校勘边界。",
+    "artifacts": "私人文稿与来源索引；正文及原始证物保留私有。",
+    "status_sep30": "已形成完整可阅读主册与续篇，当前本机确认到9/19 v1.10-B；GPT新总结称9/22 v1.11-A/B，原件未在本轮索引定位，不能直接替换现存版本。非商业出版。",
+    "planned_only": "未来续写和正式出版；图证册/A稿全套原件及月末版本尚未核齐。",
+    "dedup": "独立私人史内容作品，导入弦只是一条材料消费链，不能吞为伴侣子模块；主册/新增篇/A/B/图证/重复下载不分别增加项目。",
+    "stopped": "v2.0A抢跑稿明确不作底本，改保留v1.10-A/B并行；未证九月停止写作。",
+    "publication": "案例公开 · 完整实现私有",
+    "repository": "showcase",
+    "publication_note": "公开案例与精选演示；原始工程、完整剧本、策略与项目专用规则保留私有",
+    "evidence": []
+  }
+]

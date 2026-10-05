@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="研据 Researchdesk：把资料、判断与出处放在同一条证据链里。资料库产品化与研究工作流定制案例。">
+  <meta name="theme-color" content="#255b47"><title>研据 Researchdesk｜产品案例</title>
+  <link rel="icon" href="favicon.svg"><link rel="stylesheet" href="case.css"><script src="case.js" defer></script>
+</head>
+<body>
+<a href="#main" class="skip">跳到案例正文</a>
+<header class="site-header"><a href="#" class="wordmark" aria-label="研据产品案例首页"><img src="favicon.svg" alt="" width="32" height="32"><b>研据<span>.</span></b><small>RESEARCHDESK</small></a><nav aria-label="案例导航"><a href="#experience">产品体验</a><a href="#decisions">设计思路</a><a href="#resume">项目描述</a><a class="button small" href="#experience">查看界面 <span>↗</span></a></nav></header>
+<main id="main">
+<section class="hero wrap">
+  <div class="hero-copy"><div class="kicker"><span class="status-dot"></span> 项目合作案例 <i>/</i> v1.1</div><h1>让每一条判断，<br>都有<span>出处。</span></h1><p class="lead">从散落的资料，到可回查的研究材料。<br>研据把检索、证据整理与人工复核，<br class="desktop-break">放进一个专注的研究工作台。</p><div class="hero-actions"><a class="button" href="#experience">查看界面回放 <span>→</span></a><a class="text-link" href="#experience">先看产品界面 ↓</a></div><div class="project-meta"><span><b>角色</b>产品设计与开发</span><span><b>形态</b>本地 Web 应用</span><span><b>时间</b>2026.09</span></div></div>
+  <div class="evidence-story" aria-label="从原文到判断，再到可回查材料的示意">
+    <div class="story-heading"><span>THE EVIDENCE CHAIN</span><span>01 — 03</span></div>
+    <div class="story-source"><div class="story-top"><span>01 / 原文摘录</span><span>§ 03</span></div><blockquote>“应同时观察营业时段、<mark>预约可得性</mark>和步行可达性。”</blockquote><div class="story-source-foot"><img src="icons/file-earmark-text.svg" alt=""> 社区商业观察 <span>虚构示例</span></div></div>
+    <div class="connector"><span></span><small>保留来源 · 版本 · 段落</small></div>
+    <div class="story-judgment"><div class="story-top"><span>02 / 研究者判断</span><span class="pending">待核</span></div><h2>把“有没有”，推进到“能否用”。</h2><p>记录观察维度，同时写清支持范围与待核问题。</p></div>
+    <div class="story-output"><div><span>03 / 交付材料</span><strong>证据 + 引用 + 待核清单</strong></div><span class="output-arrow">↗</span></div>
+    <div class="story-foot">原文保留原貌，判断单独记录。</div>
+  </div>
+</section>
+<div class="proof-strip wrap"><div><strong>4,092</strong><span>实际只读接入的来源</span></div><div><strong>58,546</strong><span>可按标识定位的段落</span></div><div><strong>18 <small>项</small></strong><span>业务与 HTTP / 重启检查通过</span></div><p>2026.09 本机验收记录<br>数据规模不代表用户规模或研究结论验收。</p></div>
+<section class="section wrap" id="experience">
+  <div class="section-intro"><div><div class="kicker">01 / THE PRODUCT</div><h2>检索之后，研究才刚刚开始。</h2></div><p>面向需要反复查资料、整理判断、核对出处的研究场景。<br>以下为应用实拍，内容使用原创虚构样本。</p></div>
+  <div class="screen-tabs" role="tablist" aria-label="产品界面截图"><button role="tab" aria-selected="true" aria-controls="screen-panel" id="tab-library" data-screen="library">01 资料与原文</button><button role="tab" aria-selected="false" aria-controls="screen-panel" id="tab-cards" data-screen="cards" tabindex="-1">02 证据卡</button><button role="tab" aria-selected="false" aria-controls="screen-panel" id="tab-review" data-screen="review" tabindex="-1">03 待核清单</button></div>
+  <figure class="screen-frame" id="screen-panel" role="tabpanel" aria-labelledby="tab-library" tabindex="0"><div class="frame-bar"><span class="frame-dots">● ● ●</span><span>研据 / 本机研究空间</span><span>实际界面</span></div><img id="product-screen" src="assets/screen-library.png" alt="研据资料库：左侧专题导航，中间检索结果，右侧原文与命中段落" width="1280" height="720"><figcaption id="screen-caption">关键词命中与原文同屏。选择段落，即可保存带出处的证据。</figcaption></figure>
+  <div class="workflow"><article><span>01</span><h3>找到相关资料</h3><p>关键词检索、字段筛选与专题收藏，让资料围绕一个问题聚合。</p></article><article><span>02</span><h3>沉淀一条证据</h3><p>保留原文与定位信息，分别记录研究说明、支持范围和待核事项。</p></article><article><span>03</span><h3>让复核有记录</h3><p>草稿、待核、已核与需补证状态，配合处理理由保留修改过程。</p></article><article><span>04</span><h3>交付可回查材料</h3><p>选择证据，导出 Markdown 或可打印 HTML，携带引用与待核清单。</p></article></div>
+</section>
+<section class="decisions" id="decisions"><div class="wrap section"><div class="section-intro"><div><div class="kicker">02 / PRODUCT DECISIONS</div><h2>让“依据”贯穿整个流程。</h2></div><p>从真实资料结构出发，围绕研究可信度做取舍。</p></div><div class="decision-grid"><article><span class="decision-number">A</span><h3>把事实和判断分开</h3><p>原文由后端从指定来源回查取得。研究者的解释、支持范围与待核问题单独存放，避免摘录在编辑中失去原貌。</p><div class="decision-label">产品模型 / 证据卡</div></article><article><span class="decision-number">B</span><h3>把不确定性保留下来</h3><p>修改已核判断后重新进入待核。失效引用保留快照并提示复核；导出材料继续携带未解决的问题。</p><div class="decision-label">交互机制 / 人工复核</div></article><article><span class="decision-number">C</span><h3>接入资料，隔离写入</h3><p>原资料库通过只读适配器接入。专题、证据与导出存入独立数据库，让已有资料能够复用，产品编辑也有清晰边界。</p><div class="decision-label">工程实现 / 数据隔离</div></article></div><p class="reference-note">资料组织参照 <a href="https://www.zotero.org/support/collections_and_tags" target="_blank" rel="noopener noreferrer">Zotero 的集合与标签</a>，引用回查参照 <a href="https://support.google.com/gemininotebook/answer/16179559?hl=en" target="_blank" rel="noopener noreferrer">NotebookLM 的引用机制</a>；研据按证据整理场景独立实现。</p></div></section>
+<section class="section wrap delivery" id="launch"><div><div class="kicker">03 / DELIVERY</div><h2>把你的资料，做成可用的工作台。</h2><p>完整源码、Windows 启动入口、演示资料、操作指南与验收记录随包交付。前端资源均在本地，运行不依赖付费 API 或在线 CDN。</p><dl class="service-scope"><dt>你提供</dt><dd>资料样本、字段说明、研究流程和交付模板</dd><dt>可定制</dt><dd>资料检索、专题管理、证据整理、人工复核与材料导出</dd><dt>交付验收</dt><dd>用约定样例跑通完整流程，交付应用、源码和操作说明</dd></dl><div class="stack"><span>Python</span><span>SQLite</span><span>JavaScript</span><span>HTML / CSS</span></div></div><div class="launch-card"><span class="launch-label">LOCAL DEMO</span><h3>开始一场三分钟演示</h3><ol><li>解压私有工程，保留文件目录。</li><li>双击 <code>私有本地工程</code>，需 Python 3.11+。</li><li>在浏览器进入控制台显示的地址，点击“演示指南”。</li></ol><p id="runtime-note">当前页面可独立阅读；启动工作台后可体验完整流程。</p><a class="button" href="#experience">进入工作台 <span>↗</span></a><small>演示使用虚构资料；复核状态由人工操作，不代表真实研究批准。</small></div></section>
+<section class="resume-section" id="resume"><div class="wrap section"><div class="section-intro"><div><div class="kicker">04 / PROJECT PROFILE</div><h2>项目合作，拿成果说话。</h2></div><div class="resume-actions"><button class="outline-button" id="copy-resume">复制项目描述</button><button class="outline-button" id="print-case">打印案例</button></div></div><div id="resume-text" class="resume-text"><h3>知识检索与证据管理工作台｜Web 应用与研究流程定制</h3><p class="resume-role">研据 · 产品设计与开发</p><ul><li>面向咨询与内容研究场景，将既有资料库产品化，完成从资料检索、专题收藏、原文摘录到人工复核、材料导出的完整工作台。</li><li>实现资料导入校验与去重、来源版本和段落追溯、复核记录及带引用的 Markdown / HTML 材料包；只读接入 4,092 条来源、58,546 个段落，产品编辑与原资料库隔离。</li></ul><p class="resume-result"><b>当前成果</b> 已交付可本地运行的应用、源码、演示资料与验收材料，可现场演示“检索—摘录—复核—导出—回查”的完整流程。</p></div><p class="claim-note">自主作品，已完成本机技术验收。当前为个人本地应用；尚无真实客户、线上用户规模或效率提升数据。</p><p id="copy-status" role="status" aria-live="polite"></p></div></section>
+</main>
+<footer class="site-footer wrap"><a class="wordmark" href="#"><b>研据<span>.</span></b><small>RESEARCHDESK</small></a><p>让资料留下出处，让判断经得起回查。</p><span>产品案例 / 2026.09 / v1.1</span></footer>
+</body></html>
